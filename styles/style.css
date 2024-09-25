@@ -23,6 +23,7 @@ text-underline-offset: 4px;
 
 .header_menu_item {
 margin-left: 25px;
+letter-spacing: 0.5px;
 }
 
 .address {
@@ -32,7 +33,8 @@ font-style: normal;
 display: flex;
 width: 240.52px;
 line-height: 24px;
-justify-content: start;
+justify-content: center;
+margin-right: 25px;
 }
 
 .header_address_contact {
@@ -66,6 +68,8 @@ color: #fff;
 text-transform: uppercase;
 z-index: 2;
 position: relative;
+letter-spacing: 0.3em;
+line-height: 1.22;
 }
 
 .cover {
@@ -219,7 +223,7 @@ color: #000;
 .about {
 display: grid;
 grid-template-columns: 1fr 1fr 1fr;
-gap: 24px;
+gap: 74px;
 grid-template-rows: 1fr 2fr;
 padding: 35px 71px 180px;
 max-height: 595px;
@@ -237,8 +241,8 @@ align-items: center;
 }
   
 .about__logo-image {
-width: 70%;
-height: auto;
+width: 148px;
+height: 114px;
 }
   
 .about__headling {
@@ -283,8 +287,9 @@ margin: 180px 50px 88px;
 display: flex;
 list-style-type: none;
 align-items: center;
- margin-bottom: 35px;
+margin-bottom: 35px;
 flex-direction: column;
+margin-right: 25px;
 }
     
 .footer__menu-list {
