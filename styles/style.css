@@ -152,14 +152,12 @@
   display: flex;
   gap: 25px;
   flex-flow: row wrap;
-  justify-content: space-around;
   margin-bottom: 28px;
 }
 
 .lots__card-list-item {
   width: 334px;
   list-style: none;
-  flex-grow: 1;
 }
 
 .card {
@@ -224,8 +222,7 @@
   display: grid;
   grid-template-columns: 1fr 3fr;
   gap: 74px;
-  padding: 35px 71px 180px;
-  max-height: 595px;
+  padding: 38px 71px;
   background-color: #fff;
 }
 
@@ -257,6 +254,8 @@
   display: flex;
   flex-direction: column;
   gap: 24px;
+  line-height: 24px;
+  min-width: 693px;
 }
 
 .about__description {
@@ -276,7 +275,7 @@
   font-weight: 400;
   width: 1000px;
   position: relative;
-  margin: 183px 50px 88px;
+  margin: 142px 50px 88px;
 }
 
 .footer__menu {
